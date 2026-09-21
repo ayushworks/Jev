@@ -2,14 +2,24 @@
 
 ## Goal
 
-This repository compares Jev with one reviewed frontier-model configuration
-as judges of customer-support responses, on identical, frozen evidence
-packets. A single human reviewer's labels — not either model's — form this
-run's reference labels, so results measure agreement with that reviewer,
-not objective human accuracy.
+Evaluating AI agents today means choosing between deterministic checks
+(rigid but fast and cheap) and LLM judges (flexible but slow and expensive).
+This experiment asks whether Jev — a specialized decision model that returns
+structured verdicts instead of free-text critiques — can close that gap,
+providing evaluation signal with the agreement, stability, and cost profile
+needed for frequent testing.
 
-The project is currently in **M1 (corpus and evidence-packet construction)**.
-No judge calls have been made and no experiment result is claimed.
+Jev is compared head-to-head against GPT-5.4 (medium reasoning effort) as a
+judge of customer-support agent trajectories, with both models receiving
+identical structured state and question strings. Each judge scores five
+dimensions of a support interaction — task success, policy compliance, tool
+correctness, response groundedness, and customer communication clarity —
+using Jev's `Noul` primitive (yes/no propositions returning probabilities).
+A single human reviewer's labels form the reference against which both
+judges are measured, so results reflect agreement with that reviewer, not an
+independent ground truth.
+
+Background and results: [Jev as a Judge: Can a decision model score customer support agents as well as a frontier LLM?](https://ayushm4489.medium.com/jev-as-a-judge-can-a-decision-model-score-customer-support-agents-as-well-as-a-frontier-llm-4af637a9bd15)
 
 ## Setup
 
