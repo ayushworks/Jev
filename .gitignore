@@ -26,3 +26,6 @@ runs/**/*
 # Human labels are kept out of version control by default.
 annotations/**/*
 !annotations/.gitkeep
+
+# Review packages and decision records are kept out of version control.
+reviews/
