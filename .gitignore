@@ -32,3 +32,6 @@ reviews/
 
 # Planning and protocol documents are kept out of version control.
 protocol/
+
+# IDE metadata
+.idea/
