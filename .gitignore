@@ -29,3 +29,6 @@ annotations/**/*
 
 # Review packages and decision records are kept out of version control.
 reviews/
+
+# Planning and protocol documents are kept out of version control.
+protocol/

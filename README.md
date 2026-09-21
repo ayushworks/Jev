@@ -8,9 +8,6 @@ packets. A single human reviewer's labels — not either model's — form this
 run's reference labels, so results measure agreement with that reviewer,
 not objective human accuracy.
 
-The complete governing specification is preserved verbatim at
-[`protocol/protocol-v2.md`](protocol/protocol-v2.md).
-
 The project is currently in **M1 (corpus and evidence-packet construction)**.
 No judge calls have been made and no experiment result is claimed.
 
@@ -35,7 +32,6 @@ the current command set.
 ## Layout
 
 - `configs/` — reviewed experiment configuration
-- `protocol/` — rubric, analysis plan, provenance, and reuse decisions
 - `src/judge_compare/` — audit, ingest, validation, execution, and analysis code
 - `data/` — immutable source material, canonical packets, and manifests
 - `annotations/` — immutable human reference-label records
