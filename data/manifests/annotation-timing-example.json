@@ -1,0 +1,20 @@
+{
+  "example_id": "cs-b2418b217b214c532c093fac",
+  "exclusion_scope": "entire_task_family",
+  "exposure_reason": "owner_visible_human_annotation_timing_and_training_example",
+  "model_judgment_pool_eligible": false,
+  "annotation_calibration_pool_eligible": false,
+  "packet_hash": "b64015c5b729264a4fd0e52823a5fe4fa1a2e75444c9280273b62134d59a2abd",
+  "packet_size_bytes": 34573,
+  "prefix_message_count": 21,
+  "preview_sha256": "0168faf5d012a19448da74b8e13f25b937e76dfff5fb399854e7ba60494dba9a",
+  "schema_version": "1.0",
+  "selection_basis": "closest_to_corpus_medians_using_label_blind_size_and_usage_metadata",
+  "source_simulation_hash": "77ded7e1ffd2dba358d75dd1b23400c84138a29be6e357eeec1d1400fd04890e",
+  "source_prompt_token_proxy": 9669,
+  "split": "development",
+  "target_completion_token_proxy": 187,
+  "task_family_id": "retail-task-family-096",
+  "task_id": "96",
+  "trial": 1
+}

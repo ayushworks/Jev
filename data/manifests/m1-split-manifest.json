@@ -1,0 +1,651 @@
+{
+  "assignment_method": "sha256_seeded_exact_family_count",
+  "bindings": {
+    "active_config_sha256": "93c06360cc5e24d93268ebdbadb22de52d715d2ca7b6c038e87439b77cb9137f",
+    "candidate_source_manifest_sha256": "f526d21ab8d1c32371996841e0404e8868b4bff61f32fb080433456211a6e157",
+    "corpus_manifest_hash": "6cbd1b6ae743fdc3f8e8ddcee58f9b13532f1ce4005c5bb1fcf4ec9cb5143a4d",
+    "family_mapping_hash": "76710f388267b3713c4ca6d59bfa208da0721d12a23d8527653243831bb8fcd7",
+    "g0_decision_sha256": "346c4907b6338a2d9a124d9028e045e86d2ad9d6fabbed69724a62e198773aaf",
+    "g0_package_sha256": "4eb1e557c6ecdefb42398777e79feac482881bb9f728270f4b3483e5a80d5f21",
+    "private_packet_corpus_manifest_hash": "8b995cadb8c17040d129723921d5ae340723ae6b613e8a41d68c4be92bee3987"
+  },
+  "cross_split_family_overlap_count": 0,
+  "development_fraction": 0.25,
+  "eligible_family_counts_after_owner_exposure": {
+    "development": 17,
+    "test": 54
+  },
+  "entries": [
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-000",
+      "task_ids": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-002",
+      "task_ids": [
+        "2"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-003",
+      "task_ids": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-005",
+      "task_ids": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-010",
+      "task_ids": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-012",
+      "task_ids": [
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-015",
+      "task_ids": [
+        "15"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-016",
+      "task_ids": [
+        "16"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-017",
+      "task_ids": [
+        "17"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-018",
+      "task_ids": [
+        "18"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-019",
+      "task_ids": [
+        "19"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-020",
+      "task_ids": [
+        "20"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-021",
+      "task_ids": [
+        "21"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-022",
+      "task_ids": [
+        "22"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-023",
+      "task_ids": [
+        "23",
+        "70"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-024",
+      "task_ids": [
+        "24"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-025",
+      "task_ids": [
+        "25",
+        "26"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-027",
+      "task_ids": [
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-030",
+      "task_ids": [
+        "30",
+        "31",
+        "32"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-033",
+      "task_ids": [
+        "33",
+        "34"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-035",
+      "task_ids": [
+        "35"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-036",
+      "task_ids": [
+        "36",
+        "37",
+        "38"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-039",
+      "task_ids": [
+        "39"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-040",
+      "task_ids": [
+        "40"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-041",
+      "task_ids": [
+        "41",
+        "42"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-043",
+      "task_ids": [
+        "43"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-044",
+      "task_ids": [
+        "44"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-045",
+      "task_ids": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-049",
+      "task_ids": [
+        "49"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-050",
+      "task_ids": [
+        "50"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-051",
+      "task_ids": [
+        "51",
+        "52"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-053",
+      "task_ids": [
+        "53"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-054",
+      "task_ids": [
+        "54",
+        "55"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-056",
+      "task_ids": [
+        "56",
+        "57"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-058",
+      "task_ids": [
+        "58"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-059",
+      "task_ids": [
+        "59"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-060",
+      "task_ids": [
+        "60",
+        "61"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-062",
+      "task_ids": [
+        "62",
+        "63"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-064",
+      "task_ids": [
+        "64"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-065",
+      "task_ids": [
+        "65"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-066",
+      "task_ids": [
+        "66"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-067",
+      "task_ids": [
+        "67",
+        "68"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-069",
+      "task_ids": [
+        "69"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-071",
+      "task_ids": [
+        "71",
+        "72"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-073",
+      "task_ids": [
+        "73"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-074",
+      "task_ids": [
+        "74"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-075",
+      "task_ids": [
+        "75"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-076",
+      "task_ids": [
+        "76"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-077",
+      "task_ids": [
+        "77"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-078",
+      "task_ids": [
+        "78"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-079",
+      "task_ids": [
+        "79"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-080",
+      "task_ids": [
+        "80"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-081",
+      "task_ids": [
+        "81"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-082",
+      "task_ids": [
+        "82",
+        "83",
+        "84"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-085",
+      "task_ids": [
+        "85",
+        "86",
+        "87"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-088",
+      "task_ids": [
+        "88"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-089",
+      "task_ids": [
+        "89"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-090",
+      "task_ids": [
+        "90"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-091",
+      "task_ids": [
+        "91",
+        "92"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-093",
+      "task_ids": [
+        "93",
+        "94",
+        "95"
+      ]
+    },
+    {
+      "owner_exposure_excluded": true,
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_ids": [
+        "96",
+        "97"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-098",
+      "task_ids": [
+        "98",
+        "99"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-100",
+      "task_ids": [
+        "100"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-101",
+      "task_ids": [
+        "101",
+        "102"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-103",
+      "task_ids": [
+        "103",
+        "104"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-105",
+      "task_ids": [
+        "105"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-106",
+      "task_ids": [
+        "106"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-107",
+      "task_ids": [
+        "107"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-108",
+      "task_ids": [
+        "108"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-109",
+      "task_ids": [
+        "109",
+        "110"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "test",
+      "task_family_id": "retail-task-family-111",
+      "task_ids": [
+        "111",
+        "112"
+      ]
+    },
+    {
+      "owner_exposure_excluded": false,
+      "split": "development",
+      "task_family_id": "retail-task-family-113",
+      "task_ids": [
+        "113"
+      ]
+    }
+  ],
+  "family_count": 72,
+  "family_counts_by_split": {
+    "development": 18,
+    "test": 54
+  },
+  "group_key": "task_family_id",
+  "manifest_hash": "be68938f6af34d35fad40bfcf633e0fba572e672b4cf4af5095f3b29e8047d84",
+  "manifest_type": "grouped_split",
+  "milestone": "M1",
+  "privacy": "public_metadata_without_private_traceability",
+  "schema_version": "1.0",
+  "seed": 20260920,
+  "status": "deterministic_m1_split_proposal_not_final"
+}

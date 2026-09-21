@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+reports/
+
+# Raw benchmark data and judge outputs can be large or sensitive.
+data/raw/**/*
+!data/raw/.gitkeep
+data/upstream_archive/**/*
+!data/upstream_archive/.gitkeep
+data/packets/**/*
+!data/packets/.gitkeep
+runs/**/*
+!runs/.gitkeep
+
+# Human labels are kept out of version control by default.
+annotations/**/*
+!annotations/.gitkeep

@@ -1,0 +1,23 @@
+record_type: owner_annotation_timing_estimate
+reviewer: Ayush
+recorded_at: "2026-09-21T11:12:56Z"
+owner_statement_verbatim: "30 mins to grade 45 conversations"
+scope:
+  unique_conversations: 45
+  annotation_passes: 1
+  criteria_per_conversation: 3
+estimated_total_minutes: 30
+implied_seconds_per_conversation: 40
+interpretation: literal_total_for_all_45_not_per_conversation
+status: owner_planning_estimate_not_observed_timing
+application:
+  applies_to: Ayush_first_pass_only
+  applies_to_second_independent_annotator: false
+  replaces_independent_double_annotation: false
+  calibration_must_capture_actual_elapsed_time: true
+source_preview:
+  path: reviews/annotation-timing-example.md
+  example_id: cs-b2418b217b214c532c093fac
+  task_family_id: retail-task-family-096
+  disposition: timing_and_training_only_excluded_from_measured_pools
+conditions: []

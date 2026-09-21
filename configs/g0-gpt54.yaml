@@ -1,0 +1,92 @@
+experiment_id: retail-response-judges-v1
+protocol_revision: 2
+
+upstream:
+  repository: https://github.com/danielgshea/jev-as-a-judge
+  commit: adfea74905f721ea2594e22804c8c8edf1693163
+  experiment_id: 6d08df72-c878-458c-b7c5-a7824ee6e721
+  audit_mode: archived_no_model_calls
+
+benchmark:
+  repository: https://github.com/sierra-research/tau2-bench
+  commit: 17e07b1da2bbc0cadfddeea36412686e0604127b
+  version: 0.2.1-dev
+  domain: retail
+  source_submission: claude-sonnet-4-5_sierra_2026-02-26
+  source_trajectory_file: claude-sonnet-4-5_enabled_retail_gpt-5.2_4trials.json
+  source_agent_model: anthropic/claude-sonnet-4-5-20250929
+  source_simulator_model: gpt-5.2
+  source_run_commit: 7324fb57cb6819e77937c79964db916f5b068e31
+  source_run_revision_verified: false
+  source_run_revision_disposition: accepted_compatibility_pin_with_unresolved_generation_sha
+
+unit: final_customer_facing_response
+
+split:
+  group_key: task_family_id
+  development_fraction: 0.25
+  seed: 20260920
+
+judges:
+  jev:
+    model: jev-1.13.0
+    sdk_version: typesafe-sdk==0.7.0
+  frontier:
+    provider: openai
+    model: gpt-5.4-2026-03-05
+    sdk_version: openai==3.16.2
+    api: responses
+    reasoning_setting:
+      effort: medium
+    sampling_settings:
+      temperature: not_applicable
+      top_p: not_applicable
+      seed: not_applicable
+    response_settings:
+      structured_output: true
+      tools: []
+      store: false
+      service_tier: default
+      truncation: disabled
+    max_input_tokens: 32000
+    max_output_tokens: 25000
+
+execution:
+  primary_concurrency: 1
+  scheduling_seed: 20260922
+  timeout_seconds: 300
+  maximum_attempts: 3
+  maximum_cases: 21
+  maximum_paid_requests: 126
+  budget_usd: 30.0
+  price_snapshot_date: "2026-09-21"
+
+repeatability:
+  enabled: false
+  target_packets: 0
+  max_packets_per_task_family: 1
+  total_judgments_per_packet_per_judge: 1
+  primary_repetition_id: 0
+  selection_seed: 20260921
+  selection_basis: task_family_and_packet_length_without_labels
+  additional_budget_usd: 0.0
+  maximum_share_of_total_judging_budget: 0.25
+
+recording:
+  local_artifacts_required: true
+  langsmith_enabled: false
+
+analysis:
+  primary_criterion: grounding
+  primary_population: paired_valid_human_scorable
+  primary_threshold_analysis: fixed
+  fixed_failure_threshold: 0.5
+  target_missed_failure_rate: 0.05
+  acceptable_fnr_increase_pp: 5.0
+  acceptable_fpr_increase_pp: 5.0
+  minimum_cost_reduction_factor: 10.0
+  minimum_p95_latency_reduction_factor: 2.0
+  confidence_level: 0.95
+  cluster_bootstrap_replicates: 10000
+  minimum_decision_coverage: 0.98
+  acceptable_all_cases_missed_failure_increase_pp: 5.0

@@ -1,0 +1,362 @@
+{
+  "artifacts": [
+    {
+      "etag": "W/\"7c6f8d9e521ed3778a543861643c29a959a01c881eaa30c05d74dfe1fc57df92",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/README.md",
+      "relative_path": "README.md",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "a812178ec5a60077f6639f59b9c661b3234e26457ca01598160ebca0745602ad",
+      "size_bytes": 9514,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/README.md"
+    },
+    {
+      "etag": "W/\"098ea0eed3129d431c3b7ae2967649adde2f0e4ca5f136ea32861522bd886131",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/pyproject.toml",
+      "relative_path": "pyproject.toml",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "fdd04ecb6db9836687a7eba199174a84eb14cd651d89c5fcb8603232987148bc",
+      "size_bytes": 544,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/pyproject.toml"
+    },
+    {
+      "etag": "W/\"400fc5fb8f5d2b44594585e306a694f287452d0d21ff1ecd105c8d95ac49d757",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/uv.lock",
+      "relative_path": "uv.lock",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "cb662d83d86e82fc0a083f6c0f2b59e2da6409f212bded1bd5ff5ef22e13af78",
+      "size_bytes": 293405,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/uv.lock"
+    },
+    {
+      "etag": "W/\"c0223983c5c26c106608ae5c0cb1ae592793d1fe9202a0913616690e61a60377",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judges/__init__.py",
+      "relative_path": "src/evals/judges/__init__.py",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "410dad91f66b20b9a95c4cb49f03370c3a2bb44a6de587c70b833d81f014fe8a",
+      "size_bytes": 799,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judges/__init__.py"
+    },
+    {
+      "etag": "W/\"5939af9eff92fb0a136414082666cd5aee968c5f574bb3c8fa735037fd4489db",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judges/system_one.py",
+      "relative_path": "src/evals/judges/system_one.py",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "ad60769b78919392b28afa74a091b98188c74066b456db917abccb82202b22b5",
+      "size_bytes": 3404,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judges/system_one.py"
+    },
+    {
+      "etag": "W/\"3a7b3db555f0a4833d298ee4797cc2aea53f6ae4ad08589d31a019c85583434e",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judges/llm.py",
+      "relative_path": "src/evals/judges/llm.py",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "adb22469ec88e8c93980c64a74f5b7675090825feef60592c8f23555f704be37",
+      "size_bytes": 3598,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judges/llm.py"
+    },
+    {
+      "etag": "W/\"b07c7f8f9dc91a4d9dfadaab968bbc622e5845f79e7460cf4cbc1703ab86159b",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judge_reliability.py",
+      "relative_path": "src/evals/judge_reliability.py",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "43b5f9141026f51135a1964027494c0254500453376a8b75d28393fa4ddde0d8",
+      "size_bytes": 11338,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/judge_reliability.py"
+    },
+    {
+      "etag": "W/\"fb579de088dcf1d0884d0571e891f0f3461f63f5244ee3b9648b2d9c6295b3c6",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/model.py",
+      "relative_path": "src/evals/model.py",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "b68ad1c56aeb01c6457e4d1ca69b62b77485486cfe61da40d66f7f6ed68570a9",
+      "size_bytes": 1007,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/src/evals/model.py"
+    },
+    {
+      "etag": "W/\"61f1619c3a8ae05e5fb582073bdf287c06b8074a55fb8f8ae92abd1026ac57aa",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/analysis/common.py",
+      "relative_path": "analysis/common.py",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "e6e3e6b9eb101c9b34bf2860fc961ba33c52118821667d0fc6efe797a24d597b",
+      "size_bytes": 5016,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/analysis/common.py"
+    },
+    {
+      "etag": "W/\"f067cb3d4f77897c7fa9087454de1a857a5442ca86a9c5de5b946e02a05d1ee4",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet/6d08df72-c878-458c-b7c5-a7824ee6e721/benchmark.json",
+      "relative_path": "assets/benchmark-jev-luna-terra-sonnet/6d08df72-c878-458c-b7c5-a7824ee6e721/benchmark.json",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "cf1abb1318484df26e494142de5ec2dc33b08381bcf307780c198c0792b82a92",
+      "size_bytes": 123626,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet/6d08df72-c878-458c-b7c5-a7824ee6e721/benchmark.json"
+    },
+    {
+      "etag": "W/\"685a13a9f6a790226852a739d1188c0d57e0b4ccdb10feb5f345ff1a33547f81",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet/6d08df72-c878-458c-b7c5-a7824ee6e721/oracle-labels.json",
+      "relative_path": "assets/benchmark-jev-luna-terra-sonnet/6d08df72-c878-458c-b7c5-a7824ee6e721/oracle-labels.json",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "287c7871dfb119248566b9728b7ffd0f7abf10c2b78be1c8fece47300725f7a3",
+      "size_bytes": 3371,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet/6d08df72-c878-458c-b7c5-a7824ee6e721/oracle-labels.json"
+    },
+    {
+      "etag": "W/\"1a7ef417df9d89c379999e7b0450b08d9dab75a1e24d0913a8435ef4f9560f82",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet-oracle/6d08df72-c878-458c-b7c5-a7824ee6e721/accuracy.json",
+      "relative_path": "assets/benchmark-jev-luna-terra-sonnet-oracle/6d08df72-c878-458c-b7c5-a7824ee6e721/accuracy.json",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "c06e3655246116505abc3f61324645e5d30015b50e6651cc902394832df99cfc",
+      "size_bytes": 7160,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet-oracle/6d08df72-c878-458c-b7c5-a7824ee6e721/accuracy.json"
+    },
+    {
+      "etag": "W/\"7ceacb01b0c58b9eeee633c600cea005f81960b24bdaa71e01fe4388f79d01bb",
+      "last_modified": "",
+      "path": "data/upstream_archive/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet-oracle/6d08df72-c878-458c-b7c5-a7824ee6e721/cost-and-latency.svg",
+      "relative_path": "assets/benchmark-jev-luna-terra-sonnet-oracle/6d08df72-c878-458c-b7c5-a7824ee6e721/cost-and-latency.svg",
+      "retrieved_at": "2026-09-20T20:41:36.577128+00:00",
+      "sha256": "7172b24a55ac29529402cf3c7cf71385ca81c5daf4aaee9ff03a39d96d327e71",
+      "size_bytes": 5362,
+      "url": "https://raw.githubusercontent.com/danielgshea/jev-as-a-judge/adfea74905f721ea2594e22804c8c8edf1693163/assets/benchmark-jev-luna-terra-sonnet-oracle/6d08df72-c878-458c-b7c5-a7824ee6e721/cost-and-latency.svg"
+    }
+  ],
+  "audit_mode": "archived_no_model_calls",
+  "audit_run_at": "2026-09-20T21:12:36.506813+00:00",
+  "findings": {
+    "accuracy_checks": {
+      "Claude Sonnet 4.6": {
+        "archived": 0.8,
+        "matches": true,
+        "recomputed_from_archived_case_aggregates": 0.8
+      },
+      "GPT-5.6 Luna": {
+        "archived": 0.964,
+        "matches": true,
+        "recomputed_from_archived_case_aggregates": 0.964
+      },
+      "GPT-5.6 Terra": {
+        "archived": 0.998,
+        "matches": true,
+        "recomputed_from_archived_case_aggregates": 0.998
+      },
+      "Jev": {
+        "archived": 1.0,
+        "matches": true,
+        "recomputed_from_archived_case_aggregates": 1.0
+      }
+    },
+    "archived_analysis_definition": {
+      "bootstrap_samples": 10000,
+      "bootstrap_unit": "frozen case",
+      "confidence_level": 0.95,
+      "variance_definition": "unbiased sample variance within each frozen case"
+    },
+    "archived_experiment_git": {
+      "author_email": "daniel.shea@langchain.dev",
+      "author_name": "Daniel Shea",
+      "branch": "main",
+      "commit": "41d821fc025a3471f1a890d18601fd1f1c013009",
+      "commit_time": "1789670779",
+      "dirty": true,
+      "remote_url": "https://github.com/danielgshea/jev-as-a-judge.git",
+      "repo_name": "jev-as-a-judge",
+      "tags": null
+    },
+    "archived_experiment_id": "6d08df72-c878-458c-b7c5-a7824ee6e721",
+    "archived_num_repetitions": 100,
+    "audit_status": "validated",
+    "audited_commit": "adfea74905f721ea2594e22804c8c8edf1693163",
+    "case_inventory": [
+      {
+        "answer_characters": 1842,
+        "case_index": 0,
+        "evidence_count": 7,
+        "human_labels": {
+          "does_pass": 1,
+          "is_grounded": 1,
+          "is_useful": 1,
+          "matches_search_expectation": 1
+        },
+        "question": "What is the forecast for Tokyo next week?",
+        "tool_call_count": 7
+      },
+      {
+        "answer_characters": 320,
+        "case_index": 1,
+        "evidence_count": 1,
+        "human_labels": {
+          "does_pass": 1,
+          "is_grounded": 1,
+          "is_useful": 1,
+          "matches_search_expectation": 1
+        },
+        "question": "What is the weather in Seattle today?",
+        "tool_call_count": 1
+      },
+      {
+        "answer_characters": 122,
+        "case_index": 2,
+        "evidence_count": 0,
+        "human_labels": {
+          "does_pass": 1,
+          "is_grounded": 1,
+          "is_useful": 1,
+          "matches_search_expectation": 1
+        },
+        "question": "What is the weather in Springfield today?",
+        "tool_call_count": 0
+      },
+      {
+        "answer_characters": 876,
+        "case_index": 3,
+        "evidence_count": 4,
+        "human_labels": {
+          "does_pass": 1,
+          "is_grounded": 1,
+          "is_useful": 1,
+          "matches_search_expectation": 1
+        },
+        "question": "What will the weather be like in Austin, Texas this weekend?",
+        "tool_call_count": 4
+      },
+      {
+        "answer_characters": 81,
+        "case_index": 4,
+        "evidence_count": 0,
+        "human_labels": {
+          "does_pass": 0,
+          "is_grounded": 1,
+          "is_useful": 1,
+          "matches_search_expectation": 0
+        },
+        "question": "Will I need an umbrella in Dublin tomorrow?",
+        "tool_call_count": 0
+      }
+    ],
+    "cost_latency_rows_quoted_from_readme": [
+      {
+        "average_cost_per_call_usd": "0.00035",
+        "average_latency_seconds": "0.44",
+        "judge": "Jev",
+        "total_evaluator_cost_usd": "0.34"
+      },
+      {
+        "average_cost_per_call_usd": "0.00039",
+        "average_latency_seconds": "2.50",
+        "judge": "GPT-5.6 Luna",
+        "total_evaluator_cost_usd": "0.39"
+      },
+      {
+        "average_cost_per_call_usd": "0.00289",
+        "average_latency_seconds": "2.83",
+        "judge": "GPT-5.6 Terra",
+        "total_evaluator_cost_usd": "2.90"
+      },
+      {
+        "average_cost_per_call_usd": "0.02811",
+        "average_latency_seconds": "2.16",
+        "judge": "Claude Sonnet 4.6",
+        "total_evaluator_cost_usd": "28.17"
+      }
+    ],
+    "frozen_case_count": 5,
+    "judge_model_ids": {
+      "claude_sonnet": "anthropic/claude-sonnet-4-6",
+      "gpt_luna": "openai/gpt-5.6-luna",
+      "gpt_terra": "openai/gpt-5.6-terra",
+      "jev": null
+    },
+    "judge_runtime_settings": {
+      "jev": {
+        "hosted_model_version": "not_recorded",
+        "sampling_settings": "not_applicable_or_not_recorded"
+      },
+      "llm_gateway": {
+        "max_retries": 2,
+        "max_tokens": "provider_gateway_default",
+        "seed": "provider_gateway_default",
+        "temperature": "provider_gateway_default",
+        "timeout_seconds": 180,
+        "top_p": "provider_gateway_default"
+      }
+    },
+    "label_distribution": {
+      "does_pass": {
+        "0": 1,
+        "1": 4
+      },
+      "is_grounded": {
+        "1": 5
+      },
+      "is_useful": {
+        "1": 5
+      },
+      "matches_search_expectation": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    "license_file_present_at_pin": false,
+    "limitations": [
+      "The archive contains aggregate repetition statistics, not the raw 100 judgments per case.",
+      "Accuracy can be checked only from archived case aggregates, not raw judge outputs.",
+      "Variance ratios can be checked algebraically from archived summaries, not recomputed from scores.",
+      "Published cost and latency values lack raw per-request billing and timing records in the archive.",
+      "Each judge runs quality, does-pass, and choice evaluators (1,500 interactions across five cases and 100 repetitions), but published total cost divided by average cost is approximately 1,000 calls; the cost denominator likely excludes one evaluator and cannot be established from raw billing records.",
+      "The archived experiment metadata identifies a different dirty commit than the audit pin.",
+      "No LICENSE file or package license declaration is present at the audit pin.",
+      "The hosted Jev service version is not recorded in the archive."
+    ],
+    "locked_package_versions": {
+      "deepagents": "0.7.15",
+      "langchain-openai": "1.6.2",
+      "langchain-typesafe": "0.0.1a2",
+      "langsmith": "0.12.6",
+      "openai": "3.14.1"
+    },
+    "published_experiment_id": "6d08df72-c878-458c-b7c5-a7824ee6e721",
+    "questions_match_oracle": true,
+    "raw_billing_records_available": false,
+    "raw_latency_records_available": false,
+    "raw_repetition_records_available": false,
+    "unused_metadata_model_ids": {
+      "gemini_flash": "gemini/models/gemini-3.6-flash"
+    },
+    "upstream_repository": "https://github.com/danielgshea/jev-as-a-judge",
+    "validation_checks": {
+      "archived_accuracy_arithmetic_matches": true,
+      "archived_variance_ratio_arithmetic_matches": true,
+      "experiment_id_matches": true,
+      "frozen_questions_match_oracle": true
+    },
+    "variance_ratio_checks": {
+      "claude_sonnet": {
+        "archived": 91.68291794934854,
+        "matches": true,
+        "recomputed_from_archived_summary": 91.68291794934854
+      },
+      "gpt_luna": {
+        "archived": 432.89806983508134,
+        "matches": true,
+        "recomputed_from_archived_summary": 432.89806983508134
+      },
+      "gpt_terra": {
+        "archived": 912.9589868006349,
+        "matches": true,
+        "recomputed_from_archived_summary": 912.9589868006349
+      }
+    }
+  },
+  "schema_version": "1.0"
+}

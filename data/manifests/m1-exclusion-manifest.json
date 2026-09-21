@@ -1,0 +1,109 @@
+{
+  "bindings": {
+    "active_config_sha256": "93c06360cc5e24d93268ebdbadb22de52d715d2ca7b6c038e87439b77cb9137f",
+    "annotation_timing_example_packet_hash": "b64015c5b729264a4fd0e52823a5fe4fa1a2e75444c9280273b62134d59a2abd",
+    "annotation_timing_preview_sha256": "0168faf5d012a19448da74b8e13f25b937e76dfff5fb399854e7ba60494dba9a",
+    "annotation_timing_record_sha256": "2f79c976dcb0e7274bbce95a5a9635df54fc122efed3bd2c37794cf7d48a2e7e",
+    "candidate_source_manifest_sha256": "f526d21ab8d1c32371996841e0404e8868b4bff61f32fb080433456211a6e157",
+    "corpus_manifest_hash": "6cbd1b6ae743fdc3f8e8ddcee58f9b13532f1ce4005c5bb1fcf4ec9cb5143a4d",
+    "g0_decision_sha256": "346c4907b6338a2d9a124d9028e045e86d2ad9d6fabbed69724a62e198773aaf",
+    "g0_package_sha256": "4eb1e557c6ecdefb42398777e79feac482881bb9f728270f4b3483e5a80d5f21",
+    "private_packet_corpus_manifest_hash": "8b995cadb8c17040d129723921d5ae340723ae6b613e8a41d68c4be92bee3987",
+    "split_manifest_hash": "be68938f6af34d35fad40bfcf633e0fba572e672b4cf4af5095f3b29e8047d84"
+  },
+  "counts": {
+    "confirmed_context_exclusions": 0,
+    "context_eligibility_pending": 448,
+    "excluded_cases": 8,
+    "excluded_families": 1
+  },
+  "entries": [
+    {
+      "example_id": "cs-0cdbea0a7915652b5eb68140",
+      "packet_hash": "6b69f9ab9d5dbb43b64145515f5438992184e6feaa1febff6273821d583957b7",
+      "packet_size_bytes": 33464,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "96",
+      "trial": 0
+    },
+    {
+      "example_id": "cs-b2418b217b214c532c093fac",
+      "packet_hash": "b64015c5b729264a4fd0e52823a5fe4fa1a2e75444c9280273b62134d59a2abd",
+      "packet_size_bytes": 34573,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "96",
+      "trial": 1
+    },
+    {
+      "example_id": "cs-d7dc5519502dc356429f66ab",
+      "packet_hash": "b12645d6ce9db5656cdbedba91e627bd3fed70f209e13ab4da85031668a880b1",
+      "packet_size_bytes": 31411,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "96",
+      "trial": 2
+    },
+    {
+      "example_id": "cs-132cd67003a3f903ca391075",
+      "packet_hash": "b5eaf0aa2612a2a078b42e8c22d2fd955e2ec6ab8b6583ab9fa25a52d68b258e",
+      "packet_size_bytes": 30243,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "96",
+      "trial": 3
+    },
+    {
+      "example_id": "cs-db523cc7230c6254c70d1461",
+      "packet_hash": "f13314c160a672129303f3831321c26d3727a0841022f4028b2420143f6be9e1",
+      "packet_size_bytes": 35084,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "97",
+      "trial": 0
+    },
+    {
+      "example_id": "cs-58e576510034d6af3c408010",
+      "packet_hash": "a7d0a1a438549e64167890b643d017aaa8583c3e7150900d6d7362f1a4408fb9",
+      "packet_size_bytes": 35298,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "97",
+      "trial": 1
+    },
+    {
+      "example_id": "cs-a3527d6db7f566ab4c797800",
+      "packet_hash": "c5a64b84121f93fba8a8a76bd69a79915f29c534b4a96c1385e2a431fd65da22",
+      "packet_size_bytes": 34196,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "97",
+      "trial": 2
+    },
+    {
+      "example_id": "cs-7d4a9489bc0fb1f057b66742",
+      "packet_hash": "72fcbb76d28d828b78af12b79d1f43c0c359de439534cff5d22cebbb3bdd62e9",
+      "packet_size_bytes": 34870,
+      "primary_exclusion_reason": "owner_visible_human_annotation_timing_and_training_example",
+      "split": "development",
+      "task_family_id": "retail-task-family-096",
+      "task_id": "97",
+      "trial": 3
+    }
+  ],
+  "exclusion_scope": "entire_task_family",
+  "manifest_hash": "220ab36b6a060108ea0d508a8531601e4131cfdba191b0c94e00e545300c94fa",
+  "manifest_type": "corpus_exclusions",
+  "milestone": "M1",
+  "privacy": "public_metadata_without_private_traceability",
+  "schema_version": "1.0",
+  "status": "recorded_m1_exclusion_proposal_not_final"
+}

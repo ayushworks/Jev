@@ -1,0 +1,36 @@
+schema_version: "1.0"
+gate: M1-normalization-audit
+artifact_type: immutable_public_audit_request
+status: ready_for_human_review
+minimum_packets: 10
+required_coverage:
+  - short_packet
+  - long_packet
+  - source_success_case
+  - source_failure_case
+required_checks:
+  - conversation_order_matches_source
+  - target_response_matches_source
+  - terminal_future_message_excluded
+  - tool_calls_and_results_preserved_and_paired
+  - policy_and_tool_definitions_match_pinned_source
+  - forbidden_fields_absent
+review_sample_rule:
+  split: test
+  minimum_distinct_task_families: 10
+  exclude_any_family_in_provisional_pools: true
+  excluded_task_families:
+    - retail-task-family-096
+decision_record_path: reviews/M1-normalization-audit-decision.yaml
+private_reviewed_id_inventory_path: data/packets/v1/audits/M1-normalization-audit-reviewed-example-ids.json
+resolution_manifest_path: data/manifests/m1-normalization-audit-resolution.json
+privacy: requirements_only_no_packet_content_rewards_source_ids_or_reviewed_ids
+instructions: >-
+  Privately compare at least 10 source trajectories with their canonical
+  normalized packets. Use one packet from each of at least 10 distinct,
+  otherwise-unselected test families; exclude every provisional model or
+  calibration family and the timing-exposed family 096. This protects the
+  blinded 45-case annotation set from source/reward exposure. Cover short and
+  long packets plus source-success and source-failure cases. Keep the reviewed
+  example-ID inventory under the ignored packet root, hash that inventory, and
+  record only its hash and the required signoff metadata in the public decision.

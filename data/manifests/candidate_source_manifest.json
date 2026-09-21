@@ -1,0 +1,282 @@
+{
+  "artifacts": {
+    "license": {
+      "etag": "W/\"4cf6f7f6f1cc0be33e3142781b49b4986256b9e26ae2df3a8f33628a0ad5fbd3",
+      "last_modified": "",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/compatibility/17e07b1da2bbc0cadfddeea36412686e0604127b/tau2-LICENSE",
+      "retrieved_at": "2026-09-20T20:54:17.664710+00:00",
+      "sha256": "e67c5aa0074dfcaefd3c3a1aedb94cb539234aecd15d5a972574e3200e6252fe",
+      "size_bytes": 1072,
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/17e07b1da2bbc0cadfddeea36412686e0604127b/LICENSE"
+    },
+    "retail_policy": {
+      "etag": "W/\"62be5716405a92c3d9d314c0d91e4e9c7ba1a7f23b6319a8d1b70865036ed802",
+      "last_modified": "",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/compatibility/17e07b1da2bbc0cadfddeea36412686e0604127b/retail-policy.md",
+      "retrieved_at": "2026-09-20T20:54:17.664710+00:00",
+      "sha256": "2c9652afbce57d6e087768d37cda64d31c53d50b3e3225cfdb791bac66466467",
+      "size_bytes": 6699,
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/17e07b1da2bbc0cadfddeea36412686e0604127b/data/tau2/domains/retail/policy.md"
+    },
+    "retail_tasks": {
+      "etag": "W/\"12b10560b50dcdc192a7f5a6c7d39530a2d6644177e16ecf1cffa773116f834a",
+      "last_modified": "",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/compatibility/17e07b1da2bbc0cadfddeea36412686e0604127b/retail-tasks.json",
+      "retrieved_at": "2026-09-20T20:54:17.664710+00:00",
+      "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+      "size_bytes": 345982,
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/17e07b1da2bbc0cadfddeea36412686e0604127b/data/tau2/domains/retail/tasks.json"
+    },
+    "retail_tools_source": {
+      "etag": "W/\"495130b2c0ee2afa181befac15564a6fb8d759226ff41ca5084d92a280d063a0",
+      "last_modified": "",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/compatibility/17e07b1da2bbc0cadfddeea36412686e0604127b/retail-tools.py",
+      "retrieved_at": "2026-09-20T20:54:17.664710+00:00",
+      "sha256": "34f4fe9702d36f0dd4697700fbcd63d0cf5386e6eb8e7499aaa336243bad8750",
+      "size_bytes": 29202,
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/domains/retail/tools.py"
+    },
+    "simulator_guidelines": {
+      "etag": "W/\"f318f11365e1918dbed9cf60402c11da928031e0a6c0117cea773f98b653c507",
+      "last_modified": "",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/compatibility/17e07b1da2bbc0cadfddeea36412686e0604127b/simulation-guidelines.md",
+      "retrieved_at": "2026-09-20T20:54:17.664710+00:00",
+      "sha256": "740a29dfa64d7bc08eea3bf7493575b914a63f744acbaf7f199ee07eddaf72d3",
+      "size_bytes": 1449,
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/17e07b1da2bbc0cadfddeea36412686e0604127b/data/tau2/user_simulator/simulation_guidelines.md"
+    },
+    "submission": {
+      "etag": "W/\"cb3809ef978dbd1ea015f3df926a47d45664cd31364ecfab345bd082f926be69",
+      "last_modified": "",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/compatibility/17e07b1da2bbc0cadfddeea36412686e0604127b/submission.json",
+      "retrieved_at": "2026-09-20T20:54:17.664710+00:00",
+      "sha256": "675a5c6d9c5beddec6a44469dfd8816734fab47f23fd9b187d463dcd2815d0d1",
+      "size_bytes": 1940,
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/17e07b1da2bbc0cadfddeea36412686e0604127b/web/leaderboard/public/submissions/claude-sonnet-4-5_sierra_2026-02-26/submission.json"
+    },
+    "trajectory": {
+      "etag": "3bed77c686d4e1c3109c685765ea402c-5",
+      "last_modified": "Mon, 23 Mar 2026 20:22:15 GMT",
+      "path": "data/raw/tau2/claude-sonnet-4-5_sierra_2026-02-26/claude-sonnet-4-5_enabled_retail_gpt-5.2_4trials.json",
+      "retrieved_at": "2026-09-20T20:42:01.549881+00:00",
+      "sha256": "f344a3a63783018b693f2a1a60b80b9d4f86fce6d5df74c0fcba647baacbea00",
+      "size_bytes": 34284046,
+      "url": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-sonnet-4-5_sierra_2026-02-26/trajectories/claude-sonnet-4-5_enabled_retail_gpt-5.2_4trials.json"
+    }
+  },
+  "audit_run_at": "2026-09-20T21:12:36.531224+00:00",
+  "findings": {
+    "agent_info": {
+      "implementation": "llm_agent",
+      "llm": "anthropic/claude-sonnet-4-5-20250929",
+      "llm_args": {
+        "temperature": 0.0
+      },
+      "voice_settings": null
+    },
+    "audit_status": "validated",
+    "benchmark_reward_counts_auxiliary_only": {
+      "0.0": 126,
+      "1.0": 330
+    },
+    "candidate_target_has_tool_calls": 0,
+    "compatibility": {
+      "all_normalized_tasks_match": true,
+      "all_simulation_policies_match_embedded": true,
+      "artifact_only_task_paths": [
+        "task.evaluation_criteria.actions[0].compare_args",
+        "task.evaluation_criteria.actions[0].requestor",
+        "task.evaluation_criteria.actions[10].compare_args",
+        "task.evaluation_criteria.actions[10].requestor",
+        "task.evaluation_criteria.actions[11].compare_args",
+        "task.evaluation_criteria.actions[11].requestor",
+        "task.evaluation_criteria.actions[12].compare_args",
+        "task.evaluation_criteria.actions[12].requestor",
+        "task.evaluation_criteria.actions[1].compare_args",
+        "task.evaluation_criteria.actions[1].requestor",
+        "task.evaluation_criteria.actions[2].compare_args",
+        "task.evaluation_criteria.actions[2].requestor",
+        "task.evaluation_criteria.actions[3].compare_args",
+        "task.evaluation_criteria.actions[3].requestor",
+        "task.evaluation_criteria.actions[4].compare_args",
+        "task.evaluation_criteria.actions[4].requestor",
+        "task.evaluation_criteria.actions[5].compare_args",
+        "task.evaluation_criteria.actions[5].requestor",
+        "task.evaluation_criteria.actions[6].compare_args",
+        "task.evaluation_criteria.actions[6].requestor",
+        "task.evaluation_criteria.actions[7].compare_args",
+        "task.evaluation_criteria.actions[7].requestor",
+        "task.evaluation_criteria.actions[8].compare_args",
+        "task.evaluation_criteria.actions[8].requestor",
+        "task.evaluation_criteria.actions[9].compare_args",
+        "task.evaluation_criteria.actions[9].requestor",
+        "task.evaluation_criteria.env_assertions",
+        "task.issues",
+        "task.issues[0].description",
+        "task.issues[0].pr_link",
+        "task.issues[0].resolution",
+        "task.issues[0].resolved_at",
+        "task.required_documents",
+        "task.ticket",
+        "task.user_tools"
+      ],
+      "normalized_tasks_matching": 114,
+      "normalized_tasks_total": 114,
+      "observed_tool_count": 16,
+      "observed_unknown_argument_names": {},
+      "policy_byte_identical": true,
+      "public_tool_count": 16,
+      "simulator_guidelines_byte_identical": true,
+      "task_ids_match": true,
+      "unknown_observed_tools": []
+    },
+    "configured_compatibility_commit": "17e07b1da2bbc0cadfddeea36412686e0604127b",
+    "contiguous_turn_histories": 456,
+    "declared_trials": 4,
+    "embedded_policy_present_for_all": true,
+    "embedded_tool_definitions": null,
+    "interaction_mode_counts": {
+      "half_duplex": 456
+    },
+    "limitations": [
+      "The trajectory advertises a source git commit that is not reachable from the public tau2-bench repository.",
+      "The original public submission metadata names tau2-bench 0.2.1-dev; the selected public commit is a compatibility pin, not the verified generation commit.",
+      "Submission metadata claims extended thinking for the source agent, but the trajectory agent settings record only temperature and no thinking budget; the exact reasoning configuration is not reconstructible.",
+      "The raw artifact embeds the retail policy but sets environment_info.tool_defs to null.",
+      "Tool definitions must be reconstructed from a reviewed compatible source pin and checked against every observed call.",
+      "Every trajectory ends with a terminal user/simulator message after the last assistant response; packet construction must omit that future message.",
+      "Task-family grouping beyond repeated trials is not provided and needs a documented derivation audit.",
+      "The public S3 trajectory object is not content-addressed; its saved SHA-256 is the immutable local provenance anchor.",
+      "The S3 trajectory has no embedded license field; redistribution coverage under the repository MIT license is not explicit."
+    ],
+    "max_errors": 10,
+    "max_steps": 200,
+    "message_role_counts": {
+      "assistant": 5183,
+      "tool": 3220,
+      "user": 2547
+    },
+    "metadata_checks": {
+      "source_agent_model_matches_config": true,
+      "source_run_commit_matches_config": true,
+      "source_simulator_model_matches_config": true,
+      "submission_version_matches_config": true
+    },
+    "post_target_role_sequences": {
+      "user": 456
+    },
+    "raw_agent_model_ids": {
+      "claude-sonnet-4-5-20250929": 4727
+    },
+    "raw_simulator_model_ids": {
+      "gpt-5.2-2025-12-11": 2547
+    },
+    "seed": 300,
+    "simulation_count": 456,
+    "simulations_with_candidate_target": 456,
+    "source_final_turn_prompt_token_proxy": {
+      "count": 456,
+      "max": 14631,
+      "mean": 9642.438596491229,
+      "median": 9529,
+      "min": 5652,
+      "p75": 10715,
+      "p95": 13044,
+      "percentile_method": "higher_order_statistic"
+    },
+    "source_git_commit": "7324fb57cb6819e77937c79964db916f5b068e31",
+    "source_revision_disposition": "pending_g0",
+    "source_revision_verified": false,
+    "source_target_completion_tokens": {
+      "count": 456,
+      "max": 692,
+      "mean": 189.42763157894737,
+      "median": 187,
+      "min": 22,
+      "p75": 235,
+      "p95": 337,
+      "percentile_method": "higher_order_statistic"
+    },
+    "structural_checks": {
+      "all_simulation_tasks_present": true,
+      "all_turn_histories_contiguous": true,
+      "every_simulation_has_target": true,
+      "every_task_has_declared_trial_count": true,
+      "exactly_one_terminal_user_message_after_target": true,
+      "nonempty_simulations": true,
+      "nonempty_tasks": true,
+      "one_seed_per_trial": true,
+      "policies_nonempty": true,
+      "targets_have_no_tool_calls": true,
+      "tool_ids_unique_and_exactly_paired": true,
+      "tool_results_have_content": true,
+      "unique_nonblank_simulation_ids": true,
+      "unique_nonblank_task_ids": true,
+      "unique_task_trial_pairs": true
+    },
+    "submission": "claude-sonnet-4-5_sierra_2026-02-26",
+    "submission_methodology_notes": "Evaluated using Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) with extended thinking enabled. User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking domain evaluated with terminal-based agentic search retrieval.",
+    "submission_model": "Claude Sonnet 4.5",
+    "submission_tau2_version": "0.2.1-dev",
+    "submission_type": "standard",
+    "submission_verification": {
+      "details": "Verified evaluation with full trajectory data available. Standard tau-bench scaffold.",
+      "modified_prompts": false,
+      "omitted_questions": false
+    },
+    "task_count": 114,
+    "task_simulation_count_distribution": {
+      "4": 114
+    },
+    "termination_counts": {
+      "user_stop": 456
+    },
+    "tool_pairing": {
+      "assistant_turns_with_multiple_calls": 292,
+      "duplicate_tool_call_ids": 0,
+      "duplicate_tool_result_ids": 0,
+      "error_tool_results": 65,
+      "maximum_calls_in_assistant_turn": 6,
+      "missing_tool_call_ids": 0,
+      "missing_tool_result_ids": 0,
+      "null_tool_result_contents": 0,
+      "out_of_order_tool_results": 0,
+      "tool_calls": 3220,
+      "tool_results": 3220,
+      "unmatched_tool_calls": 0,
+      "unmatched_tool_results": 0
+    },
+    "trial_counts": {
+      "0": 114,
+      "1": 114,
+      "2": 114,
+      "3": 114
+    },
+    "trial_seeds": {
+      "0": [
+        626729
+      ],
+      "1": [
+        373753
+      ],
+      "2": [
+        361454
+      ],
+      "3": [
+        1567
+      ]
+    },
+    "unique_task_trial_pair_count": 456,
+    "user_info": {
+      "implementation": "user_simulator",
+      "llm": "gpt-5.2",
+      "llm_args": {
+        "reasoning_effort": "low"
+      },
+      "persona_config": null,
+      "voice_settings": null
+    },
+    "validation_failures": []
+  },
+  "schema_version": "1.0"
+}

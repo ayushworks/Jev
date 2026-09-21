@@ -1,0 +1,32 @@
+gate: G0
+decision: approved
+reviewer: Ayush
+reviewed_at: "2026-09-21T10:34:59Z"
+artifact_hashes:
+  reviews/G0-package.json: 4eb1e557c6ecdefb42398777e79feac482881bb9f728270f4b3483e5a80d5f21
+  reviews/G0-request.md: acdb8f6195b2c5dfad8155de124fa8769c8783252da1f11f6ad74f50fde9358a
+  configs/g0-gpt54.yaml: 93c06360cc5e24d93268ebdbadb22de52d715d2ca7b6c038e87439b77cb9137f
+  protocol/protocol-v2.md: 0d97d298c859e8d166000cb1aaf80a62adde1a3f3474b7d45dee97a229aa5330
+approved_scope:
+  quality_anchor: gpt-5.4-2026-03-05
+  quality_anchor_reasoning: medium
+  jev_model: jev-1.13.0
+  model_judgment_cases_maximum: 21
+  paid_request_attempts_maximum: 126
+  attempts_per_judge_case_maximum: 3
+  repeatability_enabled: false
+  weather_execution_enabled: false
+  paid_development_execution_authorized: false
+  paid_holdout_execution_authorized: false
+  next_paid_gate: G2_for_development_then_G3_for_holdout
+  result_scope: descriptive_feasibility_only
+  source_revision_disposition: accepted_compatibility_pin_with_unresolved_generation_sha
+  trajectory_distribution: local_research_use_only
+  annotation_calibration:
+    cases: 24
+    minimum_task_families: 12
+    scope: annotation_only_no_judge_calls
+    case_overlap_with_model_judgment_sample: false
+    task_family_overlap_with_model_judgment_sample: false
+approved_budget_usd: 30.0
+conditions: []
